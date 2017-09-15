@@ -51,11 +51,11 @@ div {
 	border: 1px solid black;
 	padding: 1em;
 }
-
+/*
 @font-face {
 	font-family: 'Gravitas One';
 	src: url('fonts/Gravitas_One/GravitasOne.ttf') format('truetype');
-}
+}*/
 
 @font-face {
 	font-family: 'Averia Serif Libre';
@@ -66,22 +66,11 @@ h1 {
 	font-family: 'Averia Serif Libre';
 }
 
-.nav {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 1em;
-}
-
-.nav > div {
-	width: 100px;
-	background-color: red;
-}
-
-ul {
+ul.nav {
     list-style-type: none;
 }
 
-li {
+ul.nav > li {
     display: inline-block;
     border-left: 1px solid white;
     padding: 0 1em;
@@ -89,5 +78,13 @@ li {
 
 li:last-child {
 	border-right: 1px solid white;
+}
+
+main > div {
+	margin-bottom: 3em;
+}
+
+#mom {
+	float: right;
 }
 
