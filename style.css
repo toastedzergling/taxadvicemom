@@ -19,15 +19,16 @@ main > section:first-child {
 }
 
 section.season {
-	background-size: 1600px;
+	background-size: calc(100vw - 4em);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 	margin: 1em 0;
-	padding: 15em 1em;
+	padding: 2em 1em 5em;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	min-height: 640px;
 }
 
 section.winter {
@@ -40,6 +41,10 @@ section.spring {
 
 section.summer {
 	background-image: url(img/summer.jpg);
+}
+
+section.late-summer {
+	background-image: url(img/late-summer.jpg);
 }
 
 section.fall {
@@ -68,9 +73,18 @@ header hr {
 	width: 50%;
 }
 
+.nav a {
+	color: white;
+}
+
 main {
 	width: 100%;
 	padding: 1em 0;
+}
+
+main > h1 {
+	text-align: center;
+	color: white;
 }
 
 div {
