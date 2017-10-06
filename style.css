@@ -36,6 +36,10 @@ section.winter {
 }
 
 section.spring {
+	background-image: url(img/spring.jpg);
+}
+
+section.early-spring {
 	background-image: url(img/early-spring.jpg);
 }
 
@@ -84,7 +88,11 @@ main {
 
 main > h1 {
 	text-align: center;
-	color: white;
+	color: rgba(0,0,0,0.8);
+}
+
+main > hr {
+	width: 30%;
 }
 
 div {
